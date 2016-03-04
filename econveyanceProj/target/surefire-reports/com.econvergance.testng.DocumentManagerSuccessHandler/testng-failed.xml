@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.econvergance.testng.DocumentManagerSuccessHandler]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.econvergance.testng.DocumentManagerSuccessHandler">
+        <methods>
+          <include name="testDocManager"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.econvergance.testng.DocumentManagerSuccessHandler -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.econvergance.testng.DocumentManagerSuccessHandler] -->

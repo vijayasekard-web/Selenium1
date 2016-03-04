@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1" verbose="1" >
+
+	
+	<parameter name="serverURl" value="https://portal-prod3.econveyancepro.com/"/>
+	<parameter name="loginEmail" value="seanbeecroft@gmail.com11"></parameter>
+	<parameter name="password" value="password"></parameter>
+	
+	<parameter name="adminLoginEmail" value=""></parameter>
+	<parameter name="adminPassword" value=""></parameter>
+	
+	<parameter name="selectalawyer" value="Depp, Johnny"/>
+	<parameter name="filenumber" value="123456789"></parameter>
+	<parameter name="filetype" value="Buyer"></parameter>
+	
+	<!--parameter name="serverURL" value="http://10.2.73.113:3000//"/>
+	<parameter name="loginEmail" value="sarah.pugsley@econveyance.com"></parameter>
+	<parameter name="password" value="sarah456"></parameter>
+
+	<parameter name="serverURL" value="https://portal-test3.econveyancepro.com/"/>
+	<parameter name="loginEmail" value="pd18611"></parameter>
+	<parameter name="password" value="WeAreGreat11"></parameter>
+	<parameter name="role" value="admin"></parameter>
+	
+	<parameter name="serverURL" value="https://portal-test1.econveyancepro.com/"/>
+	<parameter name="loginEmail" value="pd18611"></parameter>
+	<parameter name="password" value="WeAreGreat10"></parameter-->
+	
+	
+	
+  <test name="Login" >
+    <classes>
+       <class name="com.econveyance.automation.tests.logintest" />
+    </classes>
+  </test>
+ 
+  <!-- <test name="Regression1">
+    <classes>
+      <class name="test.sample.ParameterSample"/>
+      <class name="test.sample.ParameterTest"/>
+    </classes>
+  </test> -->
+</suite>
