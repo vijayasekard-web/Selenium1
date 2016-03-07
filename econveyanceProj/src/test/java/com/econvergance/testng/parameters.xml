@@ -1,28 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Suite1" verbose="1" >
+<suite name="Suite2">
+
+<!-- Regular User Login Details -->
+	
+<parameter name="serverURL" value="https://portal-test3.econveyancepro.com/"/>
+<parameter name="loginEmail" value="pd18611"></parameter>
+<parameter name="username" value="Cathy (PD18611)"></parameter>
+<parameter name="password" value="WeAreGreat12"></parameter>
+	
+	
+<!--<parameter name="serverURL" value="http://10.2.73.113:3000/"/>
+<parameter name="loginEmail" value="sarah.pugsley@econveyance.com"></parameter>
+<parameter name="username" value="Sarah (sarah.pugsley@econveyance.com)"></parameter>
+<parameter name="password" value="sarah456"></parameter>
+	
+	
+<parameter name="serverURL" value="https://portal-prod3.econveyancepro.com/"></parameter>
+<parameter name="loginEmail" value="anna.broudno@econveyance.com"></parameter>
+<parameter name="password" value="WeAreGreat11"></parameter>
+<parameter name="username" value="Anna (anna.broudno@econveyance.com)"></parameter>
+-->	
+<!-- File creation details -->
+<parameter name="lawyername" value="Burnette, Carol"/>
+<parameter name="filenumber" value="123456789"></parameter>
+<parameter name="filetype" value="Buyer"></parameter>
+	
+<parameter name="lawyername" value="Damon, Matt"/>
+<parameter name="filenumber" value="123456789"></parameter>
+<parameter name="filetype" value="Buyer"></parameter>
+
+<parameter name="lawyername" value="Damon, Matt"/>
+<parameter name="filenumber" value="123456781"></parameter>
+<parameter name="filetype" value="Buyer"></parameter>
+
+<parameter name="lawyername" value="Damon, Matt"/>
+<parameter name="filenumber" value="123456782"></parameter>
+<parameter name="filetype" value="Buyer"></parameter>
+
+<parameter name="lawyername" value="Damon, Matt"/>
+<parameter name="filenumber" value="123456783"></parameter>
+<parameter name="filetype" value="Buyer"></parameter>
+
 
 	
-	<!-- Regular User Login Details -->
-	<parameter name="serverURL" value="https://portal-prod3.econveyancepro.com/"/>
-	<parameter name="loginEmail" value="anna.broudno@econveyance.com"></parameter>
-	<parameter name="password" value="WeAreGreat11"></parameter>
-	
-	<!-- Admin Login Details -->
-	
-	<parameter name="adminLoginEmail" value="anna.broudno@econveyance.com"></parameter>
-	<parameter name="adminPassword" value="WeAreGreat11"></parameter>
-	
-	<!-- File creation details -->
-	<parameter name="lawyername" value="Bennett, Tony"/>
-	<parameter name="filenumber" value="123456789"></parameter>
-	<parameter name="filetype" value="Buyer"></parameter>
-	
 
-	  <!--test name="Login" >
-    <classes>
-       <class name="com.econveyance.automation.tests.logintest" />
-    </classes>
-  </test-->
+<!--test name="Login" >
+<classes>
+<class name="com.econveyance.automation.tests.logintest" />
+</classes>
+</test-->
  
 
 </suite>
+	

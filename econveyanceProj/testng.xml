@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="test.java.com.econvergance.testng.CreateFile"/>
+      <class name="test.java.com.econvergance.testng.DocumentManagerSuccessHandler"/>
+      <class name="test.java.com.econvergance.testng.CreateFileOn"/>
+      <class name="test.java.com.econvergance.testng.CampaignsAssertion"/>
+      <class name="test.java.com.econvergance.testng.DocumentManagerSuccessHandlerBC"/>
+      <class name="test.java.com.econvergance.testng.CreateFileAB"/>
+      <class name="test.java.com.econvergance.testng.LoginSuccessHandler"/>
+      <class name="test.java.com.econvergance.testng.DocumentManagerSuccessHandlerAB"/>
+      <class name="test.java.com.econvergance.testng.CreateFileBC"/>
+      <class name="test.java.com.econvergance.testng.PttTesting"/>
+      <class name="test.java.com.econvergance.testng.DocumentManagerSuccessHandlerON"/>
+      <class name="test.java.com.econvergance.testng.VerificationOnCampaignPopup"/>
+      <class name="test.java.com.econvergance.testng.AdminSupportSessionBC"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

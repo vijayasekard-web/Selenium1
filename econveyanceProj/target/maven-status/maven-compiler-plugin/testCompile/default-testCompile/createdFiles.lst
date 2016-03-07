@@ -1,3 +1,13 @@
-com/econvergance/testng/LoginSuccessHandler.class
-com/econvergance/testng/CreateFile.class
-com/econvergance/testng/DocumentManagerSuccessHandler.class
+test\java\com\econvergance\testng\CreateFileAB.class
+test\java\com\econvergance\testng\LoginSuccessHandler.class
+test\java\com\econvergance\testng\CreateFile.class
+test\java\com\econvergance\testng\CreateFileOn.class
+test\java\com\econvergance\testng\DocumentManagerSuccessHandlerAB.class
+test\java\com\econvergance\testng\DocumentManagerSuccessHandlerON.class
+test\java\com\econvergance\testng\AdminSupportSessionBC.class
+test\java\com\econvergance\testng\CreateFileBC.class
+test\java\com\econvergance\testng\VerificationOnCampaignPopup.class
+test\java\com\econvergance\testng\CampaignsAssertion.class
+test\java\com\econvergance\testng\DocumentManagerSuccessHandlerBC.class
+test\java\com\econvergance\testng\PttTesting.class
+test\java\com\econvergance\testng\DocumentManagerSuccessHandler.class

@@ -1,4 +1,4 @@
-package com.econvergance.testng;
+package test.java.com.econvergance.testng;
 
 
 
